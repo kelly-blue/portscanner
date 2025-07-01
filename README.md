@@ -49,6 +49,18 @@ Portscanner is a command-line tool written in Go that automates port scanning to
    go build -o portscanner .
    ```
 
+## 💾 Persistent Installation
+
+### System-wide (all users):
+```bash
+sudo mv portscanner /usr/local/bin/
+```
+### Single user (current user only):
+```bash
+mv portscanner ~/.local/bin/
+```
+> Note: For single-user installs, ensure ~/.local/bin is in your $PATH.
+ 
 ## Usage
 Run the tool with the `-i` and `-o` flags to specify the input and output files:
 ```bash
