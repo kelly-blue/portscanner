@@ -35,11 +35,11 @@ Portscanner is a command-line tool written in Go that automates port scanning to
    ```
 
 3. **Clone or Create the Project**:
-   Place the `portscanner.go` file in a directory (e.g., `/home/kellyblue/Desktop/teste/byp4xx/`).
+   Place the `portscanner.go` file in a directory (e.g., `/home/hacker/Desktop/portscanner/`).
 
 4. **Initialize Go Module**:
    ```bash
-   cd /home/kellyblue/Desktop/teste/byp4xx/
+   cd /home/hacker/Desktop/portscanner/
    go mod init portscanner
    go mod tidy
    ```
@@ -98,7 +98,7 @@ Run the tool with the `-i` and `-o` flags to specify the input and output files:
 - **Performance**: The tool uses `masscan` for fast port discovery and `nmap` with `--version-light` for efficient service detection, minimizing scan time.
 - **XSLT Processing**: Uses `xsltproc` for stable and reliable XML transformations, with XSLT embedded in the program to avoid external file dependencies.
 - **Legal Notice**: Ensure you have permission to scan the target IPs. Unauthorized scanning may violate laws or terms of service.
-- **File Permissions**: Ensure write permissions in the output directory (e.g., `/home/kellyblue/Desktop/teste/byp4xx/`):
+- **File Permissions**: Ensure write permissions in the output directory (e.g., `/home/hacker/Desktop/portscanner/`):
 
 
 ## Troubleshooting
